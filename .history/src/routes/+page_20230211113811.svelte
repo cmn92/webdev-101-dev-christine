@@ -34,8 +34,7 @@
                     
                     </div>
                     <input type="file" class="file-input file-input-bordered w-full max-w-xs" on:change={handleFileChange} />
-                    <label for="my-modal-4" class="btn btn-block btn-primary" on:click={handleCreatePost}>Create Post</label>
-                    
+                    <button class="btn btn-block btn-primary" on:click={handleCreatePost}>Create Post</button>
                 </div>
             </label>
         </label>
